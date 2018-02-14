@@ -8,17 +8,25 @@ for i in range(0,5):
     print('I <3 Computer Science')
 """
 
+"""
 #while verson
 i = 0
 while i < 5:
     print('I <3 Computer Science')
     i = i + 1 #update step
+"""
 
 """
 #Counts from 1 to 10
 for i in range(1,11):
     print(i)
 """
+
+i = 1
+while I <= 10:
+    Print(i)
+    i+= 1 #add 1 to i
+    
 
 """
 #Count from 27 to 43 by 2s
