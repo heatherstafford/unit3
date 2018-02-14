@@ -24,3 +24,4 @@ for i in range(27,44,2):
 total = 0
 for i in range(1,6):
     total = total + i
+print(total)
