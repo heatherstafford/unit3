@@ -12,6 +12,7 @@ for i in range(0,5):
 i = 0
 while i < 5:
     print('I <3 Computer Science')
+    i = i + 1 #update step
 
 """
 #Counts from 1 to 10
