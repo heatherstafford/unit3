@@ -4,5 +4,7 @@
 
 while True:
     text = input('Say anything: ')
+    if text == 'anything':
+        break
     print(text)
     
