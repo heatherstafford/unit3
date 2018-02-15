@@ -6,8 +6,12 @@ print('1: kilometers to Miles')
 print('2: Kilograms to Pounds')
 print('3: Liters to Gallons')
 print('4: Celsius to Fahrenheit')
-num = int(input('Choose a number: '))
 
+while True:
+    num = int(input('Choose a number or type quit: '))
+    if num == 'quit':
+            break
+    
 if num == 4:
     celcius = int(input('Enter Degrees in Celcius: '))
     fahrenheit = celcius * 1.8 + 32
