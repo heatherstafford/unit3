@@ -5,6 +5,5 @@
 num = int(input('Enter a number: '))
 
 for i in range(1,num):
-    newnum= num%i
-    if newnum%2== 0:
-        print(newnum)
+    if num % i == 0:
+        print(i)
